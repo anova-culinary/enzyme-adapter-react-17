@@ -8,9 +8,7 @@
     "build": "babel --source-maps=both src -d build",
     "clean": "rimraf build",
     "lint": "eslint --ext js,jsx .",
-    "prepack": "npm clean && npm build",
-    "test": "npm lint",
-    "watch": "npm build -w"
+    "test": "npm lint"
   },
   "keywords": [
     "javascript",
